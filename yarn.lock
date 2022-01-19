@@ -970,6 +970,18 @@
   "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@bcoe/v8-coverage/download/@bcoe/v8-coverage-0.2.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40bcoe%2Fv8-coverage%2Fdownload%2F%40bcoe%2Fv8-coverage-0.2.3.tgz"
   "version" "0.2.3"
 
+"@cspotcode/source-map-consumer@0.8.0":
+  "integrity" "sha1-M79LeznBeIIWBvZpu8RHpqYpeGs="
+  "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@cspotcode/source-map-consumer/download/@cspotcode/source-map-consumer-0.8.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40cspotcode%2Fsource-map-consumer%2Fdownload%2F%40cspotcode%2Fsource-map-consumer-0.8.0.tgz"
+  "version" "0.8.0"
+
+"@cspotcode/source-map-support@0.7.0":
+  "integrity" "sha1-R4mECqhZ5G0vMXNyercHxmvzRPU="
+  "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@cspotcode/source-map-support/download/@cspotcode/source-map-support-0.7.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40cspotcode%2Fsource-map-support%2Fdownload%2F%40cspotcode%2Fsource-map-support-0.7.0.tgz"
+  "version" "0.7.0"
+  dependencies:
+    "@cspotcode/source-map-consumer" "0.8.0"
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   "integrity" "sha1-/T2x1Z7PfPEh6AZQu4ZxL5tV7O0="
   "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@istanbuljs/load-nyc-config/download/@istanbuljs/load-nyc-config-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40istanbuljs%2Fload-nyc-config%2Fdownload%2F%40istanbuljs%2Fload-nyc-config-1.1.0.tgz"
@@ -1179,6 +1191,26 @@
   "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@tootallnate/once/download/@tootallnate/once-1.1.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40tootallnate%2Fonce%2Fdownload%2F%40tootallnate%2Fonce-1.1.2.tgz"
   "version" "1.1.2"
 
+"@tsconfig/node10@^1.0.7":
+  "integrity" "sha1-weToDW+WT77LM1nEO9SLQPfK2tk="
+  "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@tsconfig/node10/download/@tsconfig/node10-1.0.8.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40tsconfig%2Fnode10%2Fdownload%2F%40tsconfig%2Fnode10-1.0.8.tgz"
+  "version" "1.0.8"
+
+"@tsconfig/node12@^1.0.7":
+  "integrity" "sha1-YsH23uLr2a6tgNw6+laBDljhoEw="
+  "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@tsconfig/node12/download/@tsconfig/node12-1.0.9.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40tsconfig%2Fnode12%2Fdownload%2F%40tsconfig%2Fnode12-1.0.9.tgz"
+  "version" "1.0.9"
+
+"@tsconfig/node14@^1.0.0":
+  "integrity" "sha1-lfLRZ/+5uNIGiwsjUwL6/U33EfI="
+  "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@tsconfig/node14/download/@tsconfig/node14-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40tsconfig%2Fnode14%2Fdownload%2F%40tsconfig%2Fnode14-1.0.1.tgz"
+  "version" "1.0.1"
+
+"@tsconfig/node16@^1.0.2":
+  "integrity" "sha1-Qjx3h30Fadsg4fyAiFrEEYMUAQ4="
+  "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@tsconfig/node16/download/@tsconfig/node16-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40tsconfig%2Fnode16%2Fdownload%2F%40tsconfig%2Fnode16-1.0.2.tgz"
+  "version" "1.0.2"
+
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.14":
   "integrity" "sha1-9QrJ0g1kFTtRBXjYT5ZD+aOvvmQ="
   "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@types/babel__core/download/@types/babel__core-7.1.17.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fbabel__core%2Fdownload%2F%40types%2Fbabel__core-7.1.17.tgz"
@@ -1291,12 +1323,17 @@
   "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/acorn-walk/download/acorn-walk-7.2.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Facorn-walk%2Fdownload%2Facorn-walk-7.2.0.tgz"
   "version" "7.2.0"
 
+"acorn-walk@^8.1.1":
+  "integrity" "sha1-dBIQ8uJCZFRQiFOi9E0KuDt/acE="
+  "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/acorn-walk/download/acorn-walk-8.2.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Facorn-walk%2Fdownload%2Facorn-walk-8.2.0.tgz"
+  "version" "8.2.0"
+
 "acorn@^7.1.1":
   "integrity" "sha1-/q7SVZc9LndVW4PbwIhRpsY1IPo="
   "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/acorn/download/acorn-7.4.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Facorn%2Fdownload%2Facorn-7.4.1.tgz"
   "version" "7.4.1"
 
-"acorn@^8.2.4":
+"acorn@^8.2.4", "acorn@^8.4.1":
   "integrity" "sha1-kJUf3g+PCd+TVJSB5fwUFEW3kc8="
   "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/acorn/download/acorn-8.7.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Facorn%2Fdownload%2Facorn-8.7.0.tgz"
   "version" "8.7.0"
@@ -1346,6 +1383,11 @@
   dependencies:
     "normalize-path" "^3.0.0"
     "picomatch" "^2.0.4"
+
+"arg@^4.1.0":
+  "integrity" "sha1-Jp/HrVuOQstjyJbVZmAXJhwUQIk="
+  "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/arg/download/arg-4.1.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Farg%2Fdownload%2Farg-4.1.3.tgz"
+  "version" "4.1.3"
 
 "argparse@^1.0.7":
   "integrity" "sha1-vNZ5HqWuCXJeF+WtmIE0zUCz2RE="
@@ -1673,6 +1715,11 @@
   "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/core-js/download/core-js-3.20.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fcore-js%2Fdownload%2Fcore-js-3.20.3.tgz"
   "version" "3.20.3"
 
+"create-require@^1.1.0":
+  "integrity" "sha1-wdfo8eX2z8n/ZfnNNS03NIdWwzM="
+  "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/create-require/download/create-require-1.1.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fcreate-require%2Fdownload%2Fcreate-require-1.1.1.tgz"
+  "version" "1.1.1"
+
 "cross-spawn@^7.0.3":
   "integrity" "sha1-9zqFudXUHQRVUcF34ogtSshXKKY="
   "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/cross-spawn/download/cross-spawn-7.0.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fcross-spawn%2Fdownload%2Fcross-spawn-7.0.3.tgz"
@@ -1756,6 +1803,11 @@
   "integrity" "sha1-14OSCtjQbscYoGDQAZbf7yWxMqU="
   "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/diff-sequences/download/diff-sequences-27.4.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fdiff-sequences%2Fdownload%2Fdiff-sequences-27.4.0.tgz"
   "version" "27.4.0"
+
+"diff@^4.0.1":
+  "integrity" "sha1-YPOuy4nV+uUgwRqhnvwruYKq3n0="
+  "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/diff/download/diff-4.0.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fdiff%2Fdownload%2Fdiff-4.0.2.tgz"
+  "version" "4.0.2"
 
 "domexception@^2.0.1":
   "integrity" "sha1-+0Su+6eT4VdLCvau0oAdBXUp8wQ="
@@ -2890,6 +2942,11 @@
   dependencies:
     "semver" "^6.0.0"
 
+"make-error@^1.1.1":
+  "integrity" "sha1-LrLjfqm2fEiR9oShOUeZr0hM96I="
+  "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/make-error/download/make-error-1.3.6.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fmake-error%2Fdownload%2Fmake-error-1.3.6.tgz"
+  "version" "1.3.6"
+
 "makeerror@1.0.12":
   "integrity" "sha1-Pl3SB5qC6BLpg8xmEMSiyw6qgBo="
   "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/makeerror/download/makeerror-1.0.12.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fmakeerror%2Fdownload%2Fmakeerror-1.0.12.tgz"
@@ -3535,6 +3592,24 @@
   dependencies:
     "punycode" "^2.1.1"
 
+"ts-node@^10.4.0", "ts-node@>=9.0.0":
+  "integrity" "sha1-aA+IlFiF9ObPRQ5/DWIj3UBIlfc="
+  "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/ts-node/download/ts-node-10.4.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fts-node%2Fdownload%2Fts-node-10.4.0.tgz"
+  "version" "10.4.0"
+  dependencies:
+    "@cspotcode/source-map-support" "0.7.0"
+    "@tsconfig/node10" "^1.0.7"
+    "@tsconfig/node12" "^1.0.7"
+    "@tsconfig/node14" "^1.0.0"
+    "@tsconfig/node16" "^1.0.2"
+    "acorn" "^8.4.1"
+    "acorn-walk" "^8.1.1"
+    "arg" "^4.1.0"
+    "create-require" "^1.1.0"
+    "diff" "^4.0.1"
+    "make-error" "^1.1.1"
+    "yn" "3.1.1"
+
 "type-check@~0.3.2":
   "integrity" "sha1-WITKtRLPHTVeP7eE8wgEsrUg23I="
   "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/type-check/download/type-check-0.3.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Ftype-check%2Fdownload%2Ftype-check-0.3.2.tgz"
@@ -3558,6 +3633,16 @@
   "version" "3.1.5"
   dependencies:
     "is-typedarray" "^1.0.0"
+
+"typedi@^0.10.0":
+  "integrity" "sha1-6Pml7hALhK3b37V/6Q2NntKiHeo="
+  "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/typedi/download/typedi-0.10.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Ftypedi%2Fdownload%2Ftypedi-0.10.0.tgz"
+  "version" "0.10.0"
+
+"typescript@>=2.7":
+  "integrity" "sha1-oX06AmO/XIcjucUvQ8UITt8Twug="
+  "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/typescript/download/typescript-4.5.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Ftypescript%2Fdownload%2Ftypescript-4.5.4.tgz"
+  "version" "4.5.4"
 
 "unbox-primitive@^1.0.1":
   "integrity" "sha1-CF4hViXsMWJXTciFmr7nilmxRHE="
@@ -3754,3 +3839,8 @@
     "string-width" "^4.2.0"
     "y18n" "^5.0.5"
     "yargs-parser" "^20.2.2"
+
+"yn@3.1.1":
+  "integrity" "sha1-HodAGgnXZ8HV6rJqbkwYUYLS61A="
+  "resolved" "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/yn/download/yn-3.1.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fyn%2Fdownload%2Fyn-3.1.1.tgz"
+  "version" "3.1.1"

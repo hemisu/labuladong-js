@@ -7,12 +7,23 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Current File",
+      "name": "Current TS File",
       "program": "${file}",
       "preLaunchTask": "tsc: build - tsconfig.json",
-      "outFiles": [
-        "${workspaceFolder}/dist/**/*.js",
-      ]
+      "outFiles": ["${workspaceFolder}/out/**/*.js"]
+    },
+    {
+      "name": "Current TS File by ts-node",
+      "type": "node",
+      "request": "launch",
+      "runtimeArgs": ["-r", "ts-node/register"],
+      "args": ["${file}"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Current js File",
+      "program": "${file}",
     }
   ]
 }
