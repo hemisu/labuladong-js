@@ -17,10 +17,15 @@
     "@babel/preset-typescript": "^7.16.5",
     "@types/jest": "^27.0.3",
     "jest": "^27.4.5",
+    "raw-loader": "^4.0.2",
     "reflect-metadata": "^0.1.13",
-    "ts-node": "^10.4.0"
+    "ts-node": "^10.4.0",
+    "utf8-bytes": "^0.0.1",
+    "webpack-cli": "^4.9.2"
   },
   "dependencies": {
-    "typedi": "^0.10.0"
+    "node-fetch": "^2.6.6",
+    "typedi": "^0.10.0",
+    "webpack": "^5.69.1"
   }
 }

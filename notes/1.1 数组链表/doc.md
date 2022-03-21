@@ -54,4 +54,13 @@
 - [27. 移除元素](https://leetcode-cn.com/problems/remove-element/)
 - [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/)
 
+## 链表
+- [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+- [23. 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
+- [19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
+- [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
+- [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
+- [876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
+- [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
+
 # 链表-反转链表
